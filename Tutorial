@@ -5,6 +5,9 @@ pygame.init()
 DISPLAYSURF = pygame.display.set_mode((1000, 500), 32)
 pygame.display.set_caption('Game #1')
 
+FPS = 60
+fpsClock = pygame.time.Clock()
+
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
@@ -42,3 +45,4 @@ while True:  # main game loop
       pygame.quit()
       sys.exit()
   pygame.display.update()
+  fpsClock.tick(FPS)
