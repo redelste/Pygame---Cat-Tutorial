@@ -1,5 +1,5 @@
 #Ryan Edelstein
-#My first attempt at pygame; simple program
+#My first attempt at pygame; simple program.
 
 import pygame, sys
 from pygame.locals import *
